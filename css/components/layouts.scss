@@ -1,0 +1,102 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+             1. digonal-layout.php                 
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+@media (min-width: 1200px) {
+    .digonal {
+        background: linear-gradient(to top left, black calc(50% - 1px), #ff0000, black calc(50% + 1px));
+    }
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+             2. manifesto.php                 
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.manifesto {
+    .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        margin-left: 2.75rem;
+        margin-bottom: 2.75rem;
+        height:6rem;
+        width:6rem;
+        svg {
+            height: 3rem;
+            width: 3rem;
+        }
+        img {
+            height: 6rem;
+        }
+    }
+    .title {
+        font-weight: bold;
+        margin-left: 0.5rem;
+        @media print, screen and (max-width: 40rem) {
+            margin-left: 0.85rem;
+        }
+    }
+
+    p {
+        font-size: 1.1rem;
+        line-height: 1.9rem;
+        width: 345px;
+        @media print, screen and (max-width: 50rem) {
+            font-size: 1rem;
+            width: 315px;
+            line-height: 1.8rem;
+        }
+    }
+    small {
+        font-size: 70%;
+    }
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+             2. cta.php                 
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.cta {
+    position: relative;
+    svg {
+        height: calc(2.125rem + 1.6vw);
+        width: calc(2.125rem + 1.6vw);
+        transition: transform 0.5s ease;
+    }
+    &:hover {
+        svg {
+            transform: rotate(45deg);
+        }
+    }
+}
+
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+             3. Grain.php                  
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.app-filter {
+    background-image: url(../img/bg/grain.png);
+    background-repeat: repeat;
+    width: 100vw;
+    height: 100vh;
+    // position: fixed;
+    pointer-events: none;
+    z-index: 99999999;
+  }
+  
+  .wall-filter {
+    background-image: url(../img/bg/wall.png);
+    background-repeat: repeat;
+    background-color: #fefefe;
+    // position: fixed;
+    width: 100%;
+    height: 100vh;
+    pointer-events: none;
+  }
+  

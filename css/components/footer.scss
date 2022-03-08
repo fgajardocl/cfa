@@ -1,0 +1,38 @@
+
+
+.sticky-footer {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+
+    .fixed-target {
+        bottom: -100vh;
+    }
+    .fixed-element,
+    .fixed-target {
+        position: absolute;
+        top: -100vh;
+        right: 0;
+        left: 0;
+    }
+    .fixed-element {
+        height: 100%;
+        width: 100%;
+        background: url(../img/black2.jpg);
+        background-color: black;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .credits {
+        position: absolute;
+        bottom: 0;
+        
+      }
+}
+
+html:not(.has-scroll-smooth) .fixed-element {
+    top: 0;
+    // background-attachment: fixed;
+}

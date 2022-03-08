@@ -1,0 +1,2 @@
+.sticky-footer{position:relative;overflow:hidden;height:100vh}.sticky-footer .fixed-target{bottom:-100vh}.sticky-footer .fixed-element,.sticky-footer .fixed-target{position:absolute;top:-100vh;right:0;left:0}.sticky-footer .fixed-element{height:100%;width:100%;background:url(../img/black2.jpg);background-color:black;background-size:contain;background-repeat:no-repeat;background-position:center center}.sticky-footer .credits{position:absolute;bottom:0}html:not(.has-scroll-smooth) .fixed-element{top:0}
+/*# sourceMappingURL=footer.css.map */

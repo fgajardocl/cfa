@@ -1,0 +1,369 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*                                                 *
+*                  Text Transformation            *
+*                                                 *
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.text-small {
+    text-transform: lowercase !important;
+}
+.text-upper {
+    text-transform: uppercase !important;
+}
+.text-caps {
+    text-transform: capitalize !important;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*                                                 *
+*                   ADD Strokes                   *
+*                                                 *
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.add-stroke {
+    color: transparent !important;
+    -webkit-text-stroke: 0.7px lightgray;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*                                                 *
+*                  Font Size                      *
+*                                                 *
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+
+.fs-1 {
+    font-size: calc(0.625rem + 0.2vw);
+}
+.fs-2 {
+    font-size: calc(0.75rem + 0.18vw);
+}
+.fs-3 {
+    font-size: calc(0.75rem + 0.25vw);
+}
+
+.fs-4 {
+    font-size: calc(1rem + 0.2vw);
+}
+.fs-5 {
+    font-size: calc(1rem + 0.35vw);
+}
+.fs-6 {
+    font-size: calc(1.125rem + 0.35vw);
+}
+.fs-7 {
+    font-size: calc(1.25rem + 0.4vw);
+}
+.fs-8 {
+    font-size: calc(1.375rem + 0.5vw);
+}
+.fs-9 {
+    font-size: calc(1.5rem + 0.6vw);
+}
+.fs-10 {
+    font-size: calc(1.625rem + 0.7vw);
+}
+.fs-11 {
+    font-size: calc(1.75rem + 0.8vw);
+}
+.fs-12 {
+    font-size: calc(1.875rem + 1.2vw);
+}
+.fs-13 {
+    font-size: calc(2rem + 1.4vw);
+}
+.fs-14 {
+    font-size: calc(2.125rem + 1.6vw);
+}
+.fs-15 {
+    font-size: calc(2.25rem + 1.8vw);
+}
+.fs-16 {
+    font-size: calc(2.375rem + 2vw);
+}
+.fs-17 {
+    font-size: calc(2.5rem + 2.2vw);
+}
+.fs-18 {
+    font-size: calc(2.625rem + 2.4vw);
+}
+.fs-19 {
+    font-size: calc(2.75rem + 2.6vw);
+}
+.fs-20 {
+    font-size: calc(2.875rem + 2.8vw);
+}
+.fs-21 {
+    font-size: calc(3rem + 3vw);
+}
+
+.fs-22 {
+    font-size: calc(3.5rem + 3vw);
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*                                                 *
+*                  Font Weight                    *
+*                                                 *
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+ 
+  
+  .fw-lighter {
+    font-weight: lighter !important;
+  }
+   
+  .fw-light {
+    font-weight: 200 !important;
+  }
+  
+  .fw-normal {
+    font-weight:normal !important
+  }
+  
+  .fw-bold {
+    font-weight:bold !important;
+  }
+  
+  .fw-bolder {
+    font-weight: bolder !important;
+  }
+
+
+.fw-100 {
+    font-weight: 100 !important;
+}
+.fw-200 {
+    font-weight: 200 !important;
+}
+.fw-300 {
+    font-weight: 300 !important;
+}
+.fw-400 {
+    font-weight: 400 !important;
+}
+.fw-500 {
+    font-weight: 500 !important;
+}
+.fw-600 {
+    font-weight: 600 !important;
+}
+.fw-700 {
+    font-weight: 700 !important;
+}
+.fw-800 {
+    font-weight: 800 !important;
+}
+.fw-900 {
+    font-weight: 900 !important;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*                                                 *
+*                  Letter Spacing                 *
+*                                                 *
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.ls-0 {
+    letter-spacing: 0px;
+}
+
+
+
+.ls-1 {
+    letter-spacing: 2px;
+}
+
+.ls-2 {
+    letter-spacing: 0.25rem;
+}
+
+.ls-3 {
+    letter-spacing: 0.375rem;
+}
+
+.ls-4 {
+    letter-spacing: 0.5rem;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*                                                 *
+*                  Word Spacing                   *
+*                                                 *
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.ws-1 {
+    word-spacing: 1px;
+}
+
+.ws-2 {
+    word-spacing: 2px;
+}
+
+.ws-3 {
+    word-spacing: 0.25rem;
+}
+
+.ws-4 {
+    word-spacing: 0.375rem;
+}
+
+.ws-5 {
+    word-spacing: 0.5rem;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ *                                                 *
+ *                  Line Heights                   *
+ *                                                 *
+ *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+ .lh-0 {
+    line-height: 0 !important;
+}
+
+
+.lh-1 {
+    line-height: 1 !important;
+}
+
+.lh-2 {
+    line-height: 1.25 !important;
+}
+
+.lh-base {
+    line-height: 1.5 !important;
+}
+
+.lh-3 {
+    line-height: 1.65 !important;
+}
+.lh-4 {
+    line-height: 1.75 !important;
+}
+
+.lh-5 {
+    line-height: 2 !important;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ *                                                 *
+ *                 underlines                      *
+ *                                                 *
+ *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+ .ul-b {
+    text-decoration: underline #8B99E3 2px;    
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .fs-sm-1 {
+        font-size: calc(0.625rem + 0.2vw) !important;
+    }
+    .fs-sm-2 {
+        font-size: calc(0.75rem + 0.2vw) !important;
+    }
+    .fs-sm-3 {
+        font-size: calc(0.875rem + 0.2vw) !important;
+        line-height: 1.5;
+    }
+    .fs-sm-4 {
+        font-size: calc(1rem + 0.2vw) !important;
+    }
+    .fs-sm-5 {
+        font-size: calc(1rem + 0.35vw) !important;
+    }
+    .fs-sm-6 {
+        font-size: calc(1.125rem + 0.35vw) !important;
+    }
+    .fs-sm-7 {
+        font-size: calc(1.25rem + 0.4vw) !important;
+    }
+    .fs-sm-8 {
+        font-size: calc(1.375rem + 0.5vw) !important;
+    }
+    .fs-sm-9 {
+        font-size: calc(1.5rem + 0.6vw) !important;
+    }
+    .fs-sm-10 {
+        font-size: calc(1.625rem + 0.7vw) !important;
+    }
+
+    .fs-sm-11 {
+        font-size: calc(1.75rem + 0.8vw) !important;
+    }
+
+    .fs-sm-12 {
+        font-size: calc(1.875rem + 1.2vw) !important;
+    }
+    .fs-sm-13 {
+        font-size: calc(2rem + 1.4vw) !important;
+    }
+    .fs-sm-14 {
+        font-size: calc(2.125rem + 1.6vw) !important;
+    }
+    .fs-sm-15 {
+        font-size: calc(2.25rem + 1.8vw) !important;
+    }
+    .fs-sm-16 {
+        font-size: calc(2.375rem + 2vw) !important;
+    }
+    .fs-sm-17 {
+        font-size: calc(2.5rem + 2.2vw) !important;
+    }
+    .fs-sm-18 {
+        font-size: calc(2.625rem + 2.4vw) !important;
+    }
+    .fs-sm-19 {
+        font-size: calc(2.75rem + 2.6vw) !important;
+    }
+    .fs-sm-20 {
+        font-size: calc(2.875rem + 2.8vw) !important;
+    }
+    .fs-sm-21 {
+        font-size: calc(3rem + 3vw) !important;
+    }
+}
+
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ *                                                 *
+ *                Alignment                        *
+ *                                                 *
+ *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+ .text-justify{
+     text-align: justify !important;
+ }
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ *                                                 *
+ *                First Letter                     *
+ *                                                 *
+ *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+ .first-letter:first-letter {
+    color: red;
+    float: left;
+    font-size: 400%;
+    line-height:50%;
+    padding-right: .5rem;
+  }
+  

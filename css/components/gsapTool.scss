@@ -1,0 +1,36 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+               Debugger Tool
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.gsapTool {
+  position: fixed;
+  background: black;
+  color: #fff;
+  z-index: 999;
+  left: 50%;
+  right: 50%;
+  bottom: 2rem;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid green;
+  button {
+    background-color: transparent;
+    width: 6rem;
+    border: 1px solid white;
+    border-radius: 0.2rem;
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    color: #fff;
+  }
+
+  #slider {
+    width: 100%;
+    margin: 1rem;
+  }
+
+  #time {
+    width: 80px;
+  }
+}

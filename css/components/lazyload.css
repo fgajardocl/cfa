@@ -1,0 +1,2 @@
+img:not([src]):not([srcset]){visibility:hidden}.lazy-wrapper{position:relative;height:0;padding-bottom:66.66%}.lazy-wrapper img{width:100%;height:auto;position:absolute}
+/*# sourceMappingURL=lazyload.css.map */

@@ -1,0 +1,1 @@
+<div class="modulo_separacion_corte_color  <?php the_sub_field('tipo');?>"></div>

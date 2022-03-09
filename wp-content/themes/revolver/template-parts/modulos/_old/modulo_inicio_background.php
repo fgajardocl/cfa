@@ -1,0 +1,1 @@
+<div class="modulo_inicio_background" style="background-image:url(<?php the_sub_field('imagen');?>);background-color:<?php the_sub_field('color');?>">

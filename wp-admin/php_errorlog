@@ -1,0 +1,14 @@
+[09-Dec-2021 16:58:00 UTC] Error de la base de datos de WordPress Table 'dbzge2aw55b9am.xjjn_rank_math_analytics_gsc' doesn't exist consultas SELECT SUM(impressions) AS impressions, SUM(clicks) AS clicks, AVG(position) AS position FROM xjjn_rank_math_analytics_gsc WHERE created BETWEEN '2021-11-03 00:00:00' AND '2021-12-06 23:59:59' LIMIT 0, 1 hechas por wp_dashboard, do_meta_boxes, RankMath\Admin\Admin->render_dashboard_widget, RankMath\Admin\Admin->do_action, do_action_ref_array('rank_math/dashboard/widget'), WP_Hook->do_action, WP_Hook->apply_filters, RankMath\Analytics\Analytics->dashboard_widget, RankMath\Analytics\Summary->get_widget, MyThemeShop\Database\Query_Builder->one
+[09-Dec-2021 16:58:00 UTC] Error de la base de datos de WordPress Table 'dbzge2aw55b9am.xjjn_rank_math_analytics_gsc' doesn't exist consultas SELECT SUM(impressions) AS impressions, SUM(clicks) AS clicks, AVG(position) AS position FROM xjjn_rank_math_analytics_gsc WHERE created BETWEEN '2021-09-30 00:00:00' AND '2021-11-02 23:59:59' LIMIT 0, 1 hechas por wp_dashboard, do_meta_boxes, RankMath\Admin\Admin->render_dashboard_widget, RankMath\Admin\Admin->do_action, do_action_ref_array('rank_math/dashboard/widget'), WP_Hook->do_action, WP_Hook->apply_filters, RankMath\Analytics\Analytics->dashboard_widget, RankMath\Analytics\Summary->get_widget, MyThemeShop\Database\Query_Builder->one
+[09-Dec-2021 16:58:00 UTC] Error de la base de datos de WordPress Table 'dbzge2aw55b9am.xjjn_rank_math_analytics_gsc' doesn't exist consultas SELECT COUNT(DISTINCT(query))
+				FROM xjjn_rank_math_analytics_gsc
+				WHERE created BETWEEN '2021-11-03 00:00:00' AND '2021-12-06 23:59:59'
+				GROUP BY Date(created)
+				ORDER BY Date(created) DESC
+				LIMIT 1 hechas por wp_dashboard, do_meta_boxes, RankMath\Admin\Admin->render_dashboard_widget, RankMath\Admin\Admin->do_action, do_action_ref_array('rank_math/dashboard/widget'), WP_Hook->do_action, WP_Hook->apply_filters, RankMath\Analytics\Analytics->dashboard_widget, RankMath\Analytics\Summary->get_widget, RankMath\Analytics\Summary->get_keywords_summary
+[09-Dec-2021 16:58:00 UTC] Error de la base de datos de WordPress Table 'dbzge2aw55b9am.xjjn_rank_math_analytics_gsc' doesn't exist consultas SELECT COUNT(DISTINCT(query))
+				FROM xjjn_rank_math_analytics_gsc
+				WHERE created BETWEEN '2021-09-30 00:00:00' AND '2021-11-02 23:59:59'
+				GROUP BY Date(created)
+				ORDER BY Date(created) DESC
+				LIMIT 1 hechas por wp_dashboard, do_meta_boxes, RankMath\Admin\Admin->render_dashboard_widget, RankMath\Admin\Admin->do_action, do_action_ref_array('rank_math/dashboard/widget'), WP_Hook->do_action, WP_Hook->apply_filters, RankMath\Analytics\Analytics->dashboard_widget, RankMath\Analytics\Summary->get_widget, RankMath\Analytics\Summary->get_keywords_summary

@@ -6,11 +6,11 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /gabo/revolver_wp/
+RewriteBase /gabo/cfa/cfa/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /gabo/revolver_wp/index.php [L]
-
+RewriteRule . /gabo/cfa/cfa/index.php [L]
 </IfModule>
+
 # END WordPress

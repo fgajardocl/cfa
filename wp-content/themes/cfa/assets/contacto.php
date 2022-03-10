@@ -11,7 +11,7 @@
 
 <body data-dpk="wrapper">
 
-    <?php include('include/menu-desktop.php')?>
+    <?php get_template_part('assets/include/menu-desktop')?>
 
     <main data-dpk="container" data-dpk-namespace="contacto">
         <div data-scroll-container class="bg-white">

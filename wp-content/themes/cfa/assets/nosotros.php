@@ -10,7 +10,7 @@
 </head>
 
 <body data-dpk="wrapper">
-    <?php include('include/menu-desktop.php')?>
+    <?php get_template_part('assets/include/menu-desktop')?>
 
     <main data-dpk="container" data-dpk-namespace="Home">
         <div data-scroll-container class="bg-white">
@@ -198,7 +198,7 @@
          
 
             <section data-scroll-section class="nos-2">
-                <?php include('include/slider.php')?>
+                <?php get_template_part('assets/include/slider')?>
             </section>
         </div>
     </main>

@@ -11,7 +11,7 @@
 
 <body data-dpk="wrapper">
 
-    <?php include('include/menu-desktop.php')?>
+    <?php get_template_part('assets/include/menu-desktop')?>
 
     <main data-dpk="container" data-dpk-namespace="Home">
         <div data-scroll-container class="bg-white">
@@ -41,7 +41,7 @@
                             </div>
 
                             <div class="img-detect" data-scroll>
-                            <img src="./img/n1.png" alt="" class="img-fluid">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/n1.png" alt="" class="img-fluid">
                                 </div>
 
 
@@ -49,7 +49,7 @@
                         </div>
                         <div class="col-md-5">
                             <div class="img-detect" data-scroll>
-                            <img src="./img/n2.png" alt="" class="img-fluid">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/n2.png" alt="" class="img-fluid">
                                 </div>
                         </div>
                     </div>
@@ -61,10 +61,10 @@
 
             <section data-scroll-section>
                 <!-- <div class="container"> 
-                    <div class="img-detect" data-scroll><img src="./img/n3.jpg"  class="img-fluid"></div>
+                    <div class="img-detect" data-scroll><img src="<?php echo get_template_directory_uri(); ?>/assets/img/n3.jpg"  class="img-fluid"></div>
                 </div> -->
 
-                <?php include('include/slider.php')?>    
+                <?php get_template_part('assets/include/slider')?>    
 
             </section>
 

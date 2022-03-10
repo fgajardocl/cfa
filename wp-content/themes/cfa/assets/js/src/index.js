@@ -98,7 +98,7 @@ barba.use(barbaPrefetch);
 import { appears, disappears } from "./Module/barbaHelper";
 
 barba.init({
-  schema: { prefix: "data-dpk" },
+  schema: { prefix: "data-dpk" }, 
   debug: true,
   timeout: 5000,
   preventRunning: true,

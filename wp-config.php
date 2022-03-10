@@ -25,18 +25,18 @@ define('RECAPTCHA_APP_SECRET','6Le5uRIbAAAAACa5hOAI9J6XDlHWmKhyj-pzjSAx');
 // ** MySQL settings - You can get this info from your web host ** //
 
 if($_SERVER['SERVER_NAME']=='localhost'){
-    define( 'DB_NAME', 'revolver' );
+    define( 'DB_NAME', 'cfa' );
     define( 'DB_USER', 'root' );
     define( 'DB_PASSWORD', '' );
     define( 'DB_HOST', 'localhost' );
 }elseif($_SERVER['SERVER_NAME']=='dev.d85estudio.com'){
-    define( 'DB_NAME', 'd85estud_revolver' );
+    define( 'DB_NAME', 'd85estud_cfa' );
     define( 'DB_USER', 'd85estud_d85' );
     define( 'DB_PASSWORD', '&kAE)8Um1iR_' );
     define( 'DB_HOST', 'localhost' );
 }else{
-    define( 'DB_NAME', 'therevol_revolver' );
-    define( 'DB_USER', 'therevol_revolver' );
+    define( 'DB_NAME', 'cfa' );
+    define( 'DB_USER', 'cfa' );
     define( 'DB_PASSWORD', ';;4Xmv.)b{U.' );
     define( 'DB_HOST', 'localhost' );
 }
@@ -88,8 +88,8 @@ $table_prefix = 'xjjn_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
-// define( 'WP_DEBUG', true );
+// define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', true );
 
 /* That's all, stop editing! Happy publishing. */
 

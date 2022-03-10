@@ -7,7 +7,7 @@ var logoDa = lottie.loadAnimation({
     renderer: "svg",
     loop: false,
     autoplay: false,
-    path: "./js/data.json",
+    path: PATH+"/assets/js/data.json",
 });
 
 

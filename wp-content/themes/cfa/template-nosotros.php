@@ -14,7 +14,7 @@
  * @since 1.0
  * @version 1.0
  * 
- * Template Name: Página Clients
+ * Template Name: Nosotros
  * 
  */
 
@@ -23,7 +23,7 @@ get_header(); ?>
     <?php
     while ( have_posts() ) : the_post();
 
-        get_template_part( 'assets/client' );
+        get_template_part( 'assets/nosotros' );
 
     endwhile; // End of the loop.
     ?>

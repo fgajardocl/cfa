@@ -14,7 +14,7 @@
  * @since 1.0
  * @version 1.0
  * 
- * Template Name: Página Work
+ * Template Name: Estudio
  * 
  */
 
@@ -23,7 +23,7 @@ get_header(); ?>
     <?php
     while ( have_posts() ) : the_post();
 
-        get_template_part( 'assets/work' );
+        get_template_part( 'assets/estudio' );
 
     endwhile; // End of the loop.
     ?>

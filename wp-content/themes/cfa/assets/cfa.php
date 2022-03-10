@@ -11,7 +11,7 @@
 
 <body data-dpk="wrapper">
 
-    <?php include('include/menu-desktop.php')?>
+    <?php get_template_part('assets/include/menu-desktop')?>
 
     <main data-dpk="container" data-dpk-namespace="Home">
         <div data-scroll-container class="bg-white">
@@ -21,38 +21,38 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 col-xl-4 pb-4 appear-y delay-8" data-scroll>                           
-                            <img src="./img/gallary/1.jpg" alt="" class="img-fluid">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/gallary/1.jpg" alt="" class="img-fluid">
                         </div>
 
                         <div class="col-md-6 col-xl-4 pb-4 appear-y delay-8" data-scroll>                           
-                            <img src="./img/gallary/2.jpg" alt="" class="img-fluid">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/gallary/2.jpg" alt="" class="img-fluid">
                         </div>
 
                         <div class="col-md-6 col-xl-4 pb-4 appear-y delay-8" data-scroll>                           
-                            <img src="./img/gallary/3.jpg" alt="" class="img-fluid">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/gallary/3.jpg" alt="" class="img-fluid">
                         </div>
 
                         <div class="col-md-6 col-xl-4 pb-4 appear-y" data-scroll>                           
-                            <img src="./img/gallary/4.jpg" alt="" class="img-fluid">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/gallary/4.jpg" alt="" class="img-fluid">
                         </div>
 
                         <div class="col-md-6 col-xl-4 pb-4 appear-y" data-scroll>                           
-                            <img src="./img/gallary/5.jpg" alt="" class="img-fluid">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/gallary/5.jpg" alt="" class="img-fluid">
                         </div>
 
                         <div class="col-md-6 col-xl-4 pb-4 appear-y" data-scroll>                           
-                            <img src="./img/gallary/6.jpg" alt="" class="img-fluid">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/gallary/6.jpg" alt="" class="img-fluid">
                         </div>
                         <div class="col-md-6 col-xl-4 pb-4 appear-y" data-scroll>                           
-                            <img src="./img/gallary/7.jpg" alt="" class="img-fluid">
-                        </div>
-
-                        <div class="col-md-6 col-xl-4 pb-4 appear-y" data-scroll>                           
-                            <img src="./img/gallary/8.jpg" alt="" class="img-fluid">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/gallary/7.jpg" alt="" class="img-fluid">
                         </div>
 
                         <div class="col-md-6 col-xl-4 pb-4 appear-y" data-scroll>                           
-                            <img src="./img/gallary/9.jpg" alt="" class="img-fluid">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/gallary/8.jpg" alt="" class="img-fluid">
+                        </div>
+
+                        <div class="col-md-6 col-xl-4 pb-4 appear-y" data-scroll>                           
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/gallary/9.jpg" alt="" class="img-fluid">
                         </div>
 
                     </div>

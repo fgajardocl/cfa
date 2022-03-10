@@ -3,13 +3,13 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="swiper-image" data-swiper-parallax="50%">
-                    <div class="swiper-image-inner" style="background-image: url('./img/nosotros-banner.jpg')"></div>
+                    <div class="swiper-image-inner" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/nosotros-banner.jpg')"></div>
                 </div>
             </div>
 
             <div class="swiper-slide">
                 <div class="swiper-image" data-swiper-parallax="50%">
-                    <div class="swiper-image-inner" style="background-image: url('./img/nosotros-banner.jpg')"></div>
+                    <div class="swiper-image-inner" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/nosotros-banner.jpg')"></div>
                 </div>
             </div>
         </div>

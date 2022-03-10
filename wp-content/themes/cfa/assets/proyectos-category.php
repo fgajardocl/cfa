@@ -10,7 +10,7 @@
 </head>
 
 <body data-dpk="wrapper">
-    <?php include('include/menu-desktop.php')?>
+    <?php get_template_part('assets/include/menu-desktop')?>
 
     <main data-dpk="container" data-dpk-namespace="Project">
         <div data-scroll-container class="bg-white">
@@ -18,34 +18,34 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 layer appear-y" data-scroll>
-                            <a href="project.php">
-                                <img src="./img/pro1.jpg" alt="" class="img-fluid" />
+                            <a href="project">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pro1.jpg" alt="" class="img-fluid" />
                                 <h3>PROYECTOS CÍVICOS</h3>
                             </a>
                         </div>
                         <div class="col-md-4 layer appear-y" data-scroll>
-                            <a href="project.php">
-                                <img src="./img/pro2.jpg" alt="" class="img-fluid" />
-                                <h3>PROYECTOS CÍVICOS</h3>
-                            </a>
-                        </div>
-            
-                        <div class="col-md-4 layer appear-y" data-scroll>
-                            <a href="project.php">
-                                <img src="./img/pro3.jpg" alt="" class="img-fluid" />
-                                <h3>PROYECTOS CÍVICOS</h3>
-                            </a>
-                        </div>
-                        <div class="col-md-4 layer appear-y" data-scroll>
-                            <a href="project.php">
-                                <img src="./img/pro4.jpg" alt="" class="img-fluid" />
+                            <a href="project">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pro2.jpg" alt="" class="img-fluid" />
                                 <h3>PROYECTOS CÍVICOS</h3>
                             </a>
                         </div>
             
                         <div class="col-md-4 layer appear-y" data-scroll>
-                            <a href="project.php">
-                                <img src="./img/pro5.jpg" alt="" class="img-fluid" />
+                            <a href="project">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pro3.jpg" alt="" class="img-fluid" />
+                                <h3>PROYECTOS CÍVICOS</h3>
+                            </a>
+                        </div>
+                        <div class="col-md-4 layer appear-y" data-scroll>
+                            <a href="project">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pro4.jpg" alt="" class="img-fluid" />
+                                <h3>PROYECTOS CÍVICOS</h3>
+                            </a>
+                        </div>
+            
+                        <div class="col-md-4 layer appear-y" data-scroll>
+                            <a href="project">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pro5.jpg" alt="" class="img-fluid" />
                                 <h3>PROYECTOS CÍVICOS</h3>
                             </a>
                         </div>

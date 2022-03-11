@@ -92,6 +92,19 @@ h2 {
   @include bg;
   background-image: url(../img/nosotros-banner.jpg);
   background-position: center center;
+
+  
+  &._mov{
+    display: none;
+  }
+  @media (max-width: 767px) {
+    &._desk{
+      display: block;
+    }
+    &._mov{
+      display: none;
+    }
+  }
 }
 
 .nos-1 {
@@ -441,4 +454,18 @@ h2 {
     height: 40rem;
     width: 40rem;
   }
+}
+
+
+
+.FeedHeader__root{
+  display: none !important;
+}
+.FeedGridLayout__cell-content{
+  width: 100%;
+  height: 100%;
+}
+.FeedGridLayout__media-container{
+  width: 100%;
+  height: 100%;
 }

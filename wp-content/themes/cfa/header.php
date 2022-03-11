@@ -29,10 +29,14 @@ $desc = get_bloginfo('description');
     
     <link rel="icon" type="image/png" sizes="64x64" href="<?php the_field('favicon', 'option'); ?>" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/dpk10.css?v=<?php echo rand(1,999999);?>">
+    <!-- <link rel="stylesheet" href="<?php echo get_site_url()?>/wp-content/plugins/spotlight-social-photo-feeds/ui/dist/styles/feed.css?ver=0.10.3"> -->
+    <!-- <link rel="stylesheet" href="http://localhost/gabo/cfa/cfa/wp-content/plugins/spotlight-social-photo-feeds/ui/static/fs-override.css?ver=0.10.3"> -->
 
     <script>var RECAPTCHA_APP_KEY = '<?php echo RECAPTCHA_APP_KEY;?>';</script>
     <script>var PATH = '<?php echo get_template_directory_uri();?>';</script>
     
+    <?php wp_print_styles();?>
+
     <?php the_field('analytics_head', 'option'); ?>
 
 </head>

@@ -22,7 +22,7 @@ get_header(); ?>
 
     <?php
     while ( have_posts() ) : the_post();
-
+    
         get_template_part( 'assets/proyectos' );
 
     endwhile; // End of the loop.

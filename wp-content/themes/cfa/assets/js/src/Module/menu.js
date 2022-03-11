@@ -26,7 +26,7 @@ menuTl.reverse();
 function menu() {
   const ham = document.querySelector(".menu-btn");
   const menu = document.querySelector(".menu-wrap");
-  const menulinks = menu.querySelectorAll(".menu-wrap .link");
+  const menulinks = menu.querySelectorAll(".menu-wrap .link,.nav .menu .menu-item"); 
 
   
 

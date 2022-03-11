@@ -32,7 +32,7 @@ initCursor();
               Prevent Reload On Same Page 
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-let pagelinks = document.querySelectorAll(".link a[href], .link");
+let pagelinks = document.querySelectorAll(".link a[href], .link, .nav .menu .menu-item");
 const preventReload = function (e) {
   if (e.currentTarget.href === window.location.href) {
     e.preventDefault();

@@ -9,13 +9,19 @@
 </div>
 
 <div class="menu-wrap">
-  <ul>
+  <!-- <ul>
     <li class="link"><a href="<?php echo get_site_url();?>/estudio"> Nosotros </a></li>
     <li class="link"><a href="<?php echo get_site_url();?>/nosotros"> Estudio </a></li>
     <li class="link"><a href="<?php echo get_site_url();?>/proyectos"> Proyectos </a></li>
     <li class="link"><a href="<?php echo get_site_url();?>/contacto"> Contacto </a></li>
     <li class="link"><a href="<?php echo get_site_url();?>/cfa"> +CFA </a></li>
-  </ul>
+  </ul> -->
+  
+  <?php
+    wp_nav_menu( array( 
+        'theme_location' => 'main-menu', 
+        'container_class' => 'nav' ) ); 
+    ?>
 </div>
 
 <div class="logoCFA">

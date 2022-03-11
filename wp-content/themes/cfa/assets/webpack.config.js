@@ -14,6 +14,7 @@ module.exports = {
     ignored: /node_modules/,
   },
 
+  devtool: 'source-map',
 
   output: {
     path: path.resolve(__dirname, out_path),

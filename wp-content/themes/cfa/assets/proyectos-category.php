@@ -1,54 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+wp_reset_postdata();
+$args = array(
+    'cat'            => get_query_var('cat'),
+    'post_type'      => 'proyectos',
+    'posts_per_page' => -1,
+);
+    
+$query = new WP_Query($args);
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CFA</title>
-    <link rel="icon" type="image/png" sizes="64x64" href="img/fav.png" />
-    <link rel="stylesheet" href="css/dpk10.css" />
-</head>
-
-<body data-dpk="wrapper">
-    <?php get_template_part('assets/include/menu-desktop')?>
-
+    // var_dump($my_query);
+?>
     <main data-dpk="container" data-dpk-namespace="Project">
         <div data-scroll-container class="bg-white">
             <section data-scroll-section class="pro-2 p-header">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-8 layer appear-y" data-scroll>
-                            <a href="project">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pro1.jpg" alt="" class="img-fluid" />
-                                <h3>PROYECTOS CÍVICOS</h3>
+
+                        <?php $cnt=0; if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post();?>
+                        
+                        <?php
+                        global $post;
+                        $thumbID = get_post_thumbnail_id( $post->ID );
+                        $imgDestacada = wp_get_attachment_url( $thumbID );
+                        ?>
+
+                        <div class="<?php echo ($cnt%5==0) ? 'col-md-8':'col-md-4';?> layer appear-y" data-scroll>
+                            <a href="<?php the_permalink()?>">
+                                <img src="<?php echo $imgDestacada; ?>" alt="" class="img-fluid" />
+                                <h3><?php the_title();?></h3>
                             </a>
                         </div>
-                        <div class="col-md-4 layer appear-y" data-scroll>
-                            <a href="project">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pro2.jpg" alt="" class="img-fluid" />
-                                <h3>PROYECTOS CÍVICOS</h3>
-                            </a>
-                        </div>
-            
-                        <div class="col-md-4 layer appear-y" data-scroll>
-                            <a href="project">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pro3.jpg" alt="" class="img-fluid" />
-                                <h3>PROYECTOS CÍVICOS</h3>
-                            </a>
-                        </div>
-                        <div class="col-md-4 layer appear-y" data-scroll>
-                            <a href="project">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pro4.jpg" alt="" class="img-fluid" />
-                                <h3>PROYECTOS CÍVICOS</h3>
-                            </a>
-                        </div>
-            
-                        <div class="col-md-4 layer appear-y" data-scroll>
-                            <a href="project">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pro5.jpg" alt="" class="img-fluid" />
-                                <h3>PROYECTOS CÍVICOS</h3>
-                            </a>
-                        </div>
+                        <?php $cnt++; endwhile; wp_reset_postdata(); endif; ?>
+
                     </div>
                 </div>
             </section>
@@ -56,8 +39,4 @@
         
         </div>
     </main>
-
-    <script src="js/bundle.js"></script>
-</body>
-
-</html>
+    

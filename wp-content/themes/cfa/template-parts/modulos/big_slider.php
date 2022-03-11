@@ -16,7 +16,7 @@
             </div>
         </div>
 
-        <div class="left dpk-hover" data-hover-text="←"></div>
-        <div class="right dpk-hover" data-hover-text="→"></div>
+        <div class="left dpk-hover" data-hover-text="←" data-hover-class="dpkSlideButton"></div>
+        <div class="right dpk-hover" data-hover-text="→" data-hover-class="dpkSlideButton"></div>
     </div>
 </section>

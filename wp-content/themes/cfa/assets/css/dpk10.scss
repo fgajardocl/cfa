@@ -469,3 +469,32 @@ h2 {
   width: 100%;
   height: 100%;
 }
+
+
+
+.row_proyectos_cat{
+  >div.layer{
+    &:nth-child(5n+1) a .img_destacada{height: 24vw;}
+    &:nth-child(5n+2) a .img_destacada{height: 24vw;}
+    &:nth-child(5n+3) a .img_destacada{height: 19vw;}
+    &:nth-child(5n+4) a .img_destacada{height: 19vw;}
+    &:nth-child(5n+5) a .img_destacada{height: 19vw;}
+  }
+  .img_destacada{
+    display: block;
+    background-size: cover;
+    background-position: center center;
+  }
+  .img-fluid{
+    display: none;
+  }
+  
+  @include media("<phone") {
+    .img_destacada{
+      display: none;
+    }
+    .img-fluid{
+      display: block;
+    }
+  }
+}

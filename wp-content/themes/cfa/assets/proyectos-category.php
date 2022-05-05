@@ -14,7 +14,7 @@ $query = new WP_Query($args);
         <div data-scroll-container class="bg-white">
             <section data-scroll-section class="pro-2 p-header">
                 <div class="container">
-                    <div class="row">
+                    <div class="row row_proyectos_cat">
 
                         <?php $cnt=0; if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post();?>
                         
@@ -26,6 +26,7 @@ $query = new WP_Query($args);
 
                         <div class="<?php echo ($cnt%5==0) ? 'col-md-8':'col-md-4';?> layer appear-y" data-scroll>
                             <a href="<?php the_permalink()?>">
+                                <div class="img_destacada" style="background-image:url(<?php echo $imgDestacada; ?>)"></div>
                                 <img src="<?php echo $imgDestacada; ?>" alt="" class="img-fluid" />
                                 <h3><?php the_title();?></h3>
                             </a>
